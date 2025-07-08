@@ -22,7 +22,7 @@ def read_excel_file(file_name):
         if link.startswith('http'): 
             print(f"Opening link: {link}")
             driver.get(link)
-            time.sleep(120)  # waiting for 2 minutes for each link
+            time.sleep(20)  # waiting for 2 minutes for each link
     driver.close()
 
 
